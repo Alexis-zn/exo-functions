@@ -1,4 +1,4 @@
 const typeOf = (oui) => {
   return(typeof oui)
 }
- console.log(typeOf (777))
+ console.log(typeOf ?
