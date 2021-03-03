@@ -6,4 +6,5 @@ const isEven = (nb) => {
     return !isOdd(nb)
 }
 
-console.log(isEven(11))
+console.log(isOdd(8))
+console.log(isEven(12))
