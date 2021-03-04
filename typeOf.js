@@ -1,4 +1,5 @@
-const typeOf = (oui) => {
-  return(typeof oui)
+const typeOf = (myVar) => {
+  return typeof myVar
 }
- console.log(typeOf ?
+ console.log(typeOf(1))
+ console.log(typeOf([1, 2, 3]))
