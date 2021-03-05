@@ -18,7 +18,7 @@ const div = (nb1, nb2) => {
 }
 // console.log(div(12, 13))
 
-const calc = (nb1, sign, nb2) => {
+const calc = (sign, nb1, nb2) => {
   switch (sign) {
     case '+':
       return add(nb1, nb2)
@@ -34,4 +34,4 @@ const calc = (nb1, sign, nb2) => {
       break
   }
 } 
-console.log(calc(9, '*' , 9))
+console.log(calc('*', 9, 9))
