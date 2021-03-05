@@ -33,5 +33,5 @@ const calc = (nb1, sign, nb2) => {
       return div(nb1, nb2)
       break
   }
-}
-console.log(calc(2, '+', 2))
+} 
+console.log(calc(9, '*' , 9))
