@@ -22,16 +22,14 @@ const calc = (sign, nb1, nb2) => {
   switch (sign) {
     case '+':
       return add(nb1, nb2)
-      break   
     case '-': 
       return sub(nb1, nb2)
-      break
     case '*':
       return mul(nb1, nb2)
-      break
     case '/':
       return div(nb1, nb2)
-      break
+    default:
+      return 'unknown operator'
   }
 } 
-console.log(calc('*', 9, 9))
+console.log(calc('%', 9, 9))
